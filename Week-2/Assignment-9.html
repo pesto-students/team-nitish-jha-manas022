@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <title style="color: aqua; font: size 20px">Starting lineUp</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding-bottom: 11px;
+      }
+      .status-selection {
+        color: black;
+        display: flex;
+        align-items: baseline;
+        padding-bottom: 4px;
+      }
+      .Players-selection {
+        color: black;
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Starting lineUp</h1></header>
+    <section>
+      <fieldset class="status-selection">
+        <legend>Status</legend>
+        <label> <input type="radio" id="Draft" name="Draft" />Draft </label>
+        <label> <input type="radio" id="Final" name="Final" />Final </label>
+      </fieldset>
+      <label for="Date">Date</label>
+      <input type="Date" id="Date" name="Date" />
+    </section>
+    <section>
+      <fieldset class="Players-selection">
+        <legend>Players:</legend>
+        <label
+          ><input type="checkbox" id="Aarav Agrawal" name="Aarav Agrwal" />Aarav
+          Agrawal</label
+        >
+
+        <label
+          ><input type="checkbox" id="Ava Johnson" name="Ava Johnson" />Ava
+          Johnson</label
+        >
+
+        <label
+          ><input type="checkbox" id="Julio Ortiz" name="Julio Ortiz" />Julio
+          Ortiz</label
+        >
+
+        <label
+          ><input type="checkbox" id="Liam Rubio" name="Liam Rubio" />Liam
+          Rubio</label
+        >
+
+        <label
+          ><input
+            type="checkbox"
+            id="Emma Witherspoon"
+            name="Emma Witherspoon"
+          />Emma Witherspoon
+        </label>
+      </fieldset>
+      <button id="submit">Submit</button>
+    </section>
+  </body>
+</html>
