@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+      }
+      form {
+        display: flex;
+        align-items: baseline;
+
+        flex-direction: column;
+      }
+      label,
+      input,
+      button {
+        margin-bottom: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>Happy birthday message creator</h1>
+      </header>
+      <form class="Birthday">
+        <label for="Message">Message: </label>
+        <input type="text" id="Message" name="Message" />
+        <label for="Email address">Email Address:</label>
+        <input type="email" id="Email address" name="email" />
+        <label for="Date to send">Date to send : </label>
+        <input type="date" id="Date to send" name="date" />
+        <label for="Message color">Message color : </label>
+        <input type="color" id="Message color" name="color" />
+        <label for="number of blinks">Number of blinks : </label>
+        <input type="number" id="number of blinks" name="blinks" />
+        <label for="music volumn">Music volumn</label>
+        <input type="range" min="0" max="11" step="1" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

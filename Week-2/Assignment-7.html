@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <style>
+      body {
+        align-items: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+      }
+      label,
+      input,
+      textarea {
+        margin-bottom: 7px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>Join a Social Network</h1>
+      </header>
+      <form method="POST" action="#" >
+        <label for="full name">Full Name:</label>
+        <input type="text" name="full name" id="full name" required />
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required />
+        <label for="about you">About you</label>
+        <textarea id="about you" name="about you" rows="5" cols="30"></textarea
+        ><br />
+        <label for="photo">Upload Picture: </label>
+        <input type="file" id="picture" name="picture" />
+        <button id="submit" name="submit">submit</button>
+      </form>
+    </section>
+  </body>
+</html>
